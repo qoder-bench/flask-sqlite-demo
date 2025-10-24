@@ -1,7 +1,6 @@
 import pytest
 
 from app.domain.models import Hero
-from app.domain.repository import hero_repo
 
 
 @pytest.mark.usefixtures("app_ctx")
