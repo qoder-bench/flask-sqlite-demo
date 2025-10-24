@@ -7,5 +7,5 @@ hero_router = Blueprint("heros", __name__, template_folder="templates")
 
 @hero_router.route("")
 def hero_list():
-    users = hero_repo.get_all_hero()
-    return [user.to_dict() for user in users]
+    heros = hero_repo.get_all_hero()
+    return [hero.to_dict() for hero in heros]
