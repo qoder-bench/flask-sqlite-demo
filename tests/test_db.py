@@ -8,4 +8,4 @@ from app.domain.repository import hero_repo
 def test_user_model():
     users = Hero.query.all()
     for user in users:
-        print(user.name)
+        print(user.to_dict())
