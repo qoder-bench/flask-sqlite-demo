@@ -6,7 +6,7 @@
 - Project/Package Manager: [uv](https://docs.astral.sh/uv)
 - Web Framework: Flask
 - Database: SQLite
-- ORM: Flask-SQLAlchemy
+- ORM: Flask-SQLAlchemy, and all models have `to_dict()` method for easy serialization as dict.
 - Testing: pytest
 - Linter: [ruff](https://github.com/astral-sh/ruff)
 - type checker: [ty](https://github.com/astral-sh/ty)
