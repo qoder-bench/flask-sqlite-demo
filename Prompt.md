@@ -1,7 +1,9 @@
-我需要给项目添加一个blog功能，请实现该功能：
+I need to add a blog feature to the project. Please implement this feature:
 
-- 创建对应的数据库表结构，对应的SQL保存在`db/schema.ddl`文件中，同时更新数据库文件`db/demo.sqlite3`
-- 创建对应的SQLAlchemy model类
-- 创建对应的Repository类，包含增删改查方法，同时创建对应的单元测试
-- 创建对应的API路由，包含增删改查接口
-- 请参考Hero对应的实现方式
+- Create corresponding database table structure. Save the corresponding SQL in the `db/schema.ddl` file and update the database file `db/demo.sqlite3`
+- Create corresponding SQLAlchemy model class
+- Create corresponding Repository class with CRUD methods, and create corresponding unit tests
+- Create corresponding API routes with CRUD interfaces
+- Please refer to the Hero implementation approach
+
+
